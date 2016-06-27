@@ -1,0 +1,21 @@
+{
+  "name": "foowie/ip",
+  "description": "IP address with Nette / Doctrine 2 / Kdyby integration",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Robenek",
+      "email": "daniel.robenek@me.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "codeception/base": "*"
+  },
+  "suggest": {
+    "kdyby/doctrine": "To use IP as entity type"
+  }
+}
