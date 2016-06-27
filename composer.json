@@ -1,6 +1,6 @@
 {
   "name": "foowie/ip",
-  "description": "IP address with Nette / Doctrine 2 / Kdyby integration",
+  "description": "IP address library with Nette / Doctrine 2 / Kdyby integration",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
