@@ -60,6 +60,7 @@ class IP {
 	}
 
 	/**
+	 * @deprecated
 	 * @param bool $deep
 	 * @return IP
 	 */

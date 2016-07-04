@@ -16,6 +16,7 @@
     "codeception/base": "*"
   },
   "suggest": {
+    "foowie/cloudflare-detection": "Use with Cloudflare",
     "kdyby/doctrine": "To use IP as entity type"
   },
   "autoload": {
