@@ -17,5 +17,10 @@
   },
   "suggest": {
     "kdyby/doctrine": "To use IP as entity type"
+  },
+  "autoload": {
+    "psr-0": {
+      "Foowie\\IP": "src/"
+    }
   }
 }
