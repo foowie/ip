@@ -10,6 +10,7 @@ interface IPFactory {
 
 	/**
 	 * @return IP
+	 * @throws NoRemoteIPException
 	 */
 	public function createRemoteIP();
 	

@@ -23,6 +23,7 @@ class CloudflareIPFactory implements IPFactory {
 
 	/**
 	 * @return IP
+	 * @throws NoRemoteIPException
 	 */
 	public function createRemoteIP() {
 		if($this->cloudflareDetector->isCloudflareRequest()) {
