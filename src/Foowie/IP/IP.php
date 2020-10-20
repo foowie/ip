@@ -86,7 +86,7 @@ class IP {
 			case 'ip': return $this->getIP();
 			case 'hexIp': return $this->getHexIP();
 			case 'binaryIp': return $this->getBinaryIP();
-			default: return parent::__get($name);
+			default: throw new MemberAccessException("Property $name does not exists!");
 		}
 	}
 
